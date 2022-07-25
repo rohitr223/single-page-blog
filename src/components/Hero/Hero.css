@@ -1,0 +1,52 @@
+.hero-info{
+    padding-top: 130px;
+    text-align: center;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-col-1{
+    width: 50%;
+}
+
+.hero-col-2{
+    width: 50%;
+}
+
+.hero-text{
+    margin-top: 80px;
+}
+
+.hero-text p{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.hero-text h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+
+.hero-img{
+    height: 400px;
+    width: 400px;
+    
+}
+
+@media screen and (max-width: 780px){
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-col-1{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .hero-col-2{
+        width: 100%;
+    }
+}

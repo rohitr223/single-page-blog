@@ -1,0 +1,56 @@
+.pricing-info{
+    text-align: center;
+    margin-top: 170px;
+}
+
+.pricing-container{
+    padding: 30px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing-col{
+    flex: 33.33%;
+}
+
+.card{
+    border: 2px solid #efefef;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.card h3{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.card li{
+    margin: 10px;
+}
+
+.card-btn{
+    margin: 40px;
+}
+
+.c-btn{
+    color: black;
+    padding: 10px 15px;
+    background-color: yellow;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.c-btn:hover{
+    background-color: rgb(202, 202, 11);
+}
+
+@media screen and (max-width: 780px){
+    .pricing-container{
+    flex-direction: column;    
+    }
+
+    
+}

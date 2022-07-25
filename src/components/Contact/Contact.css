@@ -1,0 +1,43 @@
+.contact-info{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.contact-form{
+    margin-top: 40px;
+}
+
+.contact-form input{
+    border: 2px solid #efefef;
+    font-size: 20px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.contact-form textarea{
+    width: 600px;
+    height: 200px;
+    border: 2px solid #efefef;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-btn{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:780px){
+    .contact-form input{
+        width: 300px;
+    }
+
+    .contact-form textarea{
+        width: 300px;
+        height: 200px;
+    }
+    
+}

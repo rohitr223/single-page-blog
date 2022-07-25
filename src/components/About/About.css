@@ -1,0 +1,47 @@
+.about-info{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-image{
+    height: 300px;
+    width: 500px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.about-col-1{
+    width: 60%;
+}
+
+.about-col-2{
+    width: 40%;
+}
+
+.about-col-2 p{
+    margin: 10px;
+    padding-top: 40px;
+}
+
+@media screen and (max-width: 780px){
+    .about-container{
+        flex-direction: column;
+    }
+
+    .about-col-1{
+        width: 100%;
+    }
+    
+    .about-col-2{
+        width: 100%;
+    }
+
+    .about-image{
+        height: 200px;
+        width: 370px;
+    }
+}
